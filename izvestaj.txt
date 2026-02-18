@@ -1,0 +1,8 @@
+ФИНАЛЕН ИЗВЕШТАЈ ОД AI АНАЛИЗАТА
+Позитивни: 3, Негативни: 2
+
+[POSITIVE] I love this new technology, it's going to change everything!
+[NEGATIVE] This is a complete scam, do not invest your money.
+[POSITIVE] The market is a bit slow today, but I am hopeful.
+[NEGATIVE] I don't know what to think, it's very confusing.
+[POSITIVE] Best experience ever, the community is so helpful!
