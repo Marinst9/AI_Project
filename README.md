@@ -1,19 +1,28 @@
-# Мојот прв AI Dashboard 🎭
+# AI Emotion Detection Dashboard 🎭
 
-Здраво! Ова е проект што го направив за да научам како се поврзува вештачка интелигенција со база на податоци и веб-страна.
+A web application that combines AI, SQL database and real-time data visualization.
 
-### Што прави ова?
-Наместо само да читам за AI, направив апликација каде што можеш да напишеш реченица, а моделот (DistilRoBERTa) ти кажува точно како се чувствуваш (дали си среќен, лут, тажен...).
+## What does it do?
+Type any sentence and the AI model (DistilRoBERTa) will detect exactly how you feel — happy, angry, sad, surprised and more.
 
-### Главни делови:
-* **AI Анализа:** Го користи Hugging Face за да препознае 6 различни емоции.
-* **База на податоци:** Користи SQL (SQLite) за да ги „памти“ сите анализи што сме ги направиле.
-* **Dashboard:** Направив веб-страна со Streamlit каде што податоците се прикажуваат со графикони во реално време.
+## Key Features
+- **AI Analysis:** Uses Hugging Face Transformers to recognize 6 different emotions
+- **Database:** SQLite stores all previous analyses so nothing is lost
+- **Dashboard:** Streamlit web app displays results with real-time charts
 
-### Како да го пуштиш кај тебе:
-1. Инсталирај ги библиотеките:
-   `pip install transformers streamlit pandas matplotlib torch`
-2. Стартувај ја страната со оваа команда во терминал:
-   `python -m streamlit run dashboard.py`
+## Tech Stack
+Python • Hugging Face • Streamlit • SQLite • Pandas • Matplotlib • PyTorch
 
-Го направив ова за да видам како податоците се движат од обичен текст, преку "мозокот" на AI-то, па сè до табела во SQL.
+## How to run locally
+
+1. Install dependencies:
+pip install transformers streamlit pandas matplotlib torch
+
+2. Start the app:
+python -m streamlit run dashboard.py
+
+## Screenshots
+(add screenshots here)
+
+## About
+Built to learn how data flows from raw text → AI model → SQL database → visual dashboard.
