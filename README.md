@@ -21,8 +21,7 @@ pip install transformers streamlit pandas matplotlib torch
 2. Start the app:
 python -m streamlit run dashboard.py
 
-## Screenshots
-(add screenshots here)
+
 
 ## About
 Built to learn how data flows from raw text → AI model → SQL database → visual dashboard.
